@@ -3,7 +3,7 @@ HW2 - Cross Validation
 資料集 : Income Prediction  
 目標 : 利用資料集其他欄位進行預測，預測目標是income (<=50K或>50K兩種)  
 流程 :  
-1.資料前處理  
+>1.資料前處理  
 2.使用Random Forest進行分類  
 3.自行撰寫function進行k-fold cross-validation(不使用套件)並計算Accuracy  
   3-1. input(k, data)，將data切成k份，其中1份當測試集，剩餘k-1份當訓練集建立模型  
